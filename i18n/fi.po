@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_change_password
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 19:26+0000\n"
+"PO-Revision-Date: 2018-11-05 21:27+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: website_change_password
+#: model:ir.ui.view,arch_db:website_change_password.change_password
+msgid "Cancel"
+msgstr "Peruuta"
+
+#. module: website_change_password
+#: model:ir.ui.view,arch_db:website_change_password.change_password
+msgid "Change Password"
+msgstr "Vaihda salasana"
+
+#. module: website_change_password
+#: model:ir.ui.view,arch_db:website_change_password.change_password_link
+msgid "Change password"
+msgstr "Vaihda salasana"
+
+#. module: website_change_password
+#: model:ir.ui.view,arch_db:website_change_password.change_password
+msgid "Confirm New Password"
+msgstr "Vahvista uusi salasana"
+
+#. module: website_change_password
+#: model:ir.ui.view,arch_db:website_change_password.change_password
+msgid "Current Password"
+msgstr "Nykyinen salasana"
+
+#. module: website_change_password
+#: model:ir.ui.view,arch_db:website_change_password.change_password
+msgid "New Password"
+msgstr "Uusi salasana"
+
+#. module: website_change_password
+#: model:ir.ui.view,arch_db:website_change_password.change_password
+msgid "Save"
+msgstr "Tallenna"
