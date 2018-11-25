@@ -19,7 +19,7 @@
 {
     'name': 'Website Change Password',
     'summary': 'Change password from website portal',
-    'version': '10.0.1.1.1',
+    'version': '10.0.1.1.2',
     'category': 'Website',
     'website': 'https://github.com/savijoki/website_change_password',
     'author': 'Aleksi Savijoki',

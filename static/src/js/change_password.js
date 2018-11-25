@@ -23,7 +23,8 @@ odoo.define('website_change_password.change_password', function (require) {
                     window.location.replace("/");
                 }
             }).fail(function(err, data) {
-                $('#password_error').removeClass('hidden').html(data.data.message);
+                var beautified = data.data.message.replace(/\r\n|\n|\r|None/g, '<br />');
+                $('#password_error').removeClass('hidden').html(beautified);
             });
         });
 
