@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -21,7 +20,6 @@ from odoo.http import request
 
 
 class ChangePassword(http.Controller):
-
 
     @http.route(['/change/password'], type='http', auth="user", website=True)
     def change_password(self, **post):
