@@ -21,6 +21,6 @@ from odoo.http import request
 
 class ChangePassword(http.Controller):
 
-    @http.route(['/change/password'], type='http', auth="user", website=True)
+    @http.route(["/change/password"], type="http", auth="user", website=True)
     def change_password(self, **post):
         return request.render("website_change_password.change_password", {})

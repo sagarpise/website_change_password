@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -17,21 +16,21 @@
 ##############################################################################
 
 {
-    'name': 'Website Change Password',
-    'summary': 'Change password from website portal',
-    'version': '12.0.1.2.5',
-    'category': 'Website',
-    'website': 'https://github.com/savijoki/website_change_password',
-    'author': 'Aleksi Savijoki',
-    'license': 'AGPL-3',
-    'depends': [
-        'portal',
+    "name": "Website Change Password",
+    "summary": "Change password from portal",
+    "version": "14.0.1.0.0",
+    "category": "Website",
+    "website": "https://github.com/savijoki/website_change_password",
+    "author": "Aleksi Savijoki",
+    "license": "AGPL-3",
+    "depends": [
+        "portal",
     ],
-    'data': [
-        'views/website_change_password.xml',
+    "data": [
+        "views/website_change_password.xml",
     ],
-    'demo': [
+    "demo": [
     ],
-    'application': False,
-    'installable': True,
+    "application": False,
+    "installable": True,
 }

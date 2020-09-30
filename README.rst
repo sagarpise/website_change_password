@@ -6,7 +6,7 @@
 Website Change Password
 =======================
 
-This module enables password change from portal.
+This module enables password change from website.
 Password can be changed under Change password -link from user dropdown on website.
 
 
